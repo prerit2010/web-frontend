@@ -5,33 +5,34 @@
 
 </HEAD>
 <body>
-  <!-- <h1>lflrjfrfjwfkj</h1> -->
 
-  <div class="jumbotron">
+
+  <div class="jumbotron" style="background-image: url({{ url_for('static', filename='img/cubes.jpg') }}); background-size: 100%;">
   <div class= "container">
     <div class="row">
       <div class="col-md-6" >
-        <h1>IdeaBin</h1>
-        <p>This is a template for a simple marketing or informational website.<br /> It includes a large callout called a jumbotron and three <br /> supporting pieces of content. Use it as <br/>a starting point to create something more unique.</p>
+        <h1 style="font-family : forte; color : white ;">IdeaBin</h1>
+        <p style="color : white">Got an Idea ? Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.</p>
+        <button type="button" class="btn btn-primary btn-lg">Post an Idea</button>
       </div>
       <div class = "col-md-6">
-      
+
         <form role="form" class = "form-group">
-         
+
           <div class="form-group col-xs-8 pull-right">
-            <input type="text" class="form-control" id="username" placeholder="Pick a usernme">
-          </div>
-         
-          <div class="form-group col-xs-8 pull-right">
-            <input type="email" class="form-control" id="email" placeholder="Your Email">
+            <input type="text" class="form-control input-lg" id="username" placeholder="Pick a username">
           </div>
 
           <div class="form-group col-xs-8 pull-right">
-            <input type="password" class="form-control" id="password" placeholder="Create a password">
-          </div> 
+            <input type="email" class="form-control input-lg" id="email" placeholder="Your Email">
+          </div>
 
-
+          <div class="form-group col-xs-8 pull-right">
+            <input type="password" class="form-control input-lg" id="password" placeholder="Create a password">
+          </div>
           
+
+
           <div class="form-group col-xs-8 pull-right">
 
             <button type="submit" class="btn btn-success btn-lg btn-block">Sign up</button>
@@ -46,9 +47,10 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        
+
         <div class="col-md-6">
-          <h2>Heading</h2>
+          <i class="fa fa-briefcase"></i>
+
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
