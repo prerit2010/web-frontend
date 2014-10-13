@@ -24,42 +24,54 @@
           <a class="navbar-brand" href="#">IdeaBin</a>
         </div>
         <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-left form-inline" id="search" role="search">
+          <form class="navbar-form navbar-left" id="search" role="search">
             <div class="form-group-group">
-              <div class="input-group" style="width: 500px">
+              <div class="input-group" style="width: 300px">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
             </div> <!-- END form group div -->
           </form> <!-- END search bar form -->
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <button type="button" class="btn btn-default">Sign In</button>
-            </div>
-          </form>
+
+
+
 
           <ul class="nav navbar-nav">
             <li>
               <a href="#">Explore</a>
             </li>
-            <li>
-              <a href="#">Features</a>
-            </li>
-            <li>
-              <a href="#">Enterprise</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
+
           </ul>
+
+                    <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <button type="button" class="btn btn-default" >Sign In</button>
+
+            </div>
+          </form>
+
+         <!--  <ul class="nav pull-right">
+          <li class="dropdown" id="menuLogin">
+            <a class="dropdown-toggle " href="#" data-toggle="dropdown" id="navLogin">Login</a>
+            <div class="dropdown-menu " style="padding:17px;">
+              <form class="form " id="formLogin">
+                <input name="username" id="username" type="text" placeholder="Username">
+                <input name="password" id="password" type="password" placeholder="Password"><br>
+                <button type="button" id="btnLogin" class="btn">Login</button>
+              </form>
+            </div>
+          </li>
+        </ul> -->
+
       </div>
      </div>
   </div>
+
 
     {%- block content %}
     {% endblock -%}
     {%- block  footer %}
 
-    <div class="footer top-buffer">
+    <footer class="footer top-buffer">
       <div class="container">
         <ul class="list-inline">
           <li><a href="/">Terms</a></li>
@@ -68,7 +80,7 @@
           <li><a href="/">Contact</a></li>
         </ul>
       </div>
-    </div>
+    </footer>
 
     {% endblock -%}
     {%- block scripts %}

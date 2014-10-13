@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+<HTML>
+<HEAD>
+    <style type="text/css">
+   body { background: #eee; }
+</style>
+</HEAD>
+<body>
+    <!-- <div class="wrapper">
+    <form class="form-signin">
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control top-buffer" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </form>
+  </div> -->
+
+  <div class="container top-buffer">
+
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="form-control top-buffer" placeholder="Username" required autofocus>
+        <input type="password" class="form-control" style="margin-top:10px" placeholder="Password" required>
+
+        <button class="btn btn-lg btn-primary btn-block top-buffer" type="submit">Sign in</button>
+      </form>
+
+    </div>
+
+
+
+</body>
+</HTML>
+
+
+{% endblock %}
