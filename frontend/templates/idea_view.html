@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="container">
+
+      <div class="blog-header top-buffer">
+        <h1 class="blog-title">Title of the idea</h1>
+        <!-- <p class="lead blog-description">The officials example template of creating a blog with Bootstrap.</p> -->
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main ">
+
+          <div class="blog-post">
+            <!-- <h2 class="blog-post-title">Sample blog post</h2> -->
+            <!-- <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p> -->
+
+            <p class="top-buffer">This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+            </div>
+
+            <hr>
+
+
+
+
+
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+
+            <h3>Username</h3>
+
+            <h5>January 1, 2014</h5>
+            <hr>
+
+
+            <div class="list-inline">
+            <li><a class="btn btn btn-primary " href="#">
+            <i class="fa fa-thumbs-o-up fa"></i>Vote</a></li>
+
+             <label class="control-label">230 votes</label>
+
+            </div>
+
+                <br />
+
+            <a class="btn btn-success" href="#">
+            <i class="fa fa-flag fa-lg"></i>Subscribe</a>
+            <br /> <br />
+
+            <div class="form-group">
+
+                <textarea class="form-control" rows="4" placeholder="Tags" disabled="true"></textarea>
+            </div>
+
+            <hr>
+
+            <a class="btn btn-default" href="#">
+            <i class="fa fa-pencil-square-o fa"></i>Edit</a>
+
+
+          <a class="btn btn-danger col-md-offset-1" href="#">
+            <i class="fa fa-times fa"></i> Delete</a>
+
+
+
+
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+<div style ='background-color: #FAFAFA;' class="top-buffer">
+    <div class="container" >
+    <div class="row">
+        <div class="panel panel-default widget">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-comment"></span>
+                <h3 class="panel-title">
+                    Recent Comments</h3>
+
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 col-md-1">
+                                <img src="{{ url_for('static', filename='img/user.jpg') }}" class="img-circle img-responsive" alt="" /></div>
+                            <div class="col-xs-10 col-md-10">
+                                <div>
+                                         <div class="comment-text">
+                                    Awesome Idea!!
+                                </div>
+
+                                </div>
+                                <div class="mic-info text-muted">
+                                        By: <a href="#">Prerit Garg</a> on 2 Aug 2013
+                                    </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 col-md-1">
+                                <img src="{{ url_for('static', filename='img/user.jpg') }}" class="img-circle img-responsive" alt="" /></div>
+                            <div class="col-xs-10 col-md-11">
+                                <div>
+
+                                        <div class="comment-text">
+                                    Awesome Idea. Looking Forward to work on it.
+                                </div>
+
+                                </div>
+                                <div class="mic-info text-muted">
+                                        By: <a href="#">Shadab Zafar</a> on 2 Aug 2013
+                                    </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 col-md-1">
+                                <img src="{{ url_for('static', filename='img/user.jpg') }}" class="img-circle img-responsive" alt="" /></div>
+                            <!-- <div class="col-xs-10 col-md-11">
+                                <div>
+
+                                        <div class="comment-text">
+                                    Awesome Idea. Looking Forward to work on it.
+                                </div>
+
+                                </div>
+                                <div class="mic-info text-muted">
+                                        By: <a href="#">Shadab Zafar</a> on 2 Aug 2013
+                                    </div>
+
+
+                            </div> -->
+
+                            <div class="form-group-group">
+              <div class="input-group" style="width: 400px">
+                <input type="text" class="form-control input-sm" placeholder="Add a comment">
+              </div>
+            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- <a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+{% endblock %}

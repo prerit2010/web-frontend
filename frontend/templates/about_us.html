@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% block content %}
+<HTML>
+<HEAD>
+
+</HEAD>
+<body>
+
+
+  <div class="jumbotron masthead" style="background-image: url({{ url_for('static', filename='img/cubes.jpg') }}); background-size: 100%;">
+    <div class= "container">
+      <div class="row">
+        <div class="col-md-6" >
+         <h1 style="font-family : forte; color : white ;">IdeaBin</h1>
+         <p style="color : white">Got an Idea ? Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.</p>
+         <button type="button" class="btn btn-primary btn-lg">Post an Idea</button>
+
+        </div>
+        <div class = "col-md-6">
+          <form role="form" class = "form-group">
+            <!-- <div class="form-group col-xs-8 pull-right">
+              <input type="text" class="form-control input-lg" id="username" placeholder="Pick a username">
+            </div>
+
+            <div class="form-group col-xs-8 pull-right">
+             <input type="email" class="form-control input-lg" id="email" placeholder="Your Email">
+            </div>
+
+            <div class="form-group col-xs-8 pull-right">
+              <input type="password" class="form-control input-lg" id="password" placeholder="Create a password">
+            </div>
+
+            <div class="form-group col-xs-8 pull-right">
+              <button type="submit" class="btn btn-success btn-lg btn-block">Sign up</button>
+            </div> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-2">
+       </div>
+        <div class="col-md-8">
+          <div class="row text-center">
+          <h1>The idea behind IdeaBin</h1>
+          <h4>Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.Text here.</h4>
+          </div>
+        </div>
+        <div class="col-md-2">
+       </div>
+
+
+        <div class="col-md-5 top-buffer">
+          <div class="row text-center">
+
+          <i class="fa fa-briefcase fa-4x"></i>
+          </div>
+          <div class="row text-center">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+       </div>
+       <div class="col-md-2">
+       </div>
+        <div class="col-md-5 top-buffer">
+          <div class="row text-center">
+
+          <i class="fa fa-briefcase fa-4x"></i>
+          </div>
+          <div class="row text-center">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-5 top-buffer">
+          <div class="row text-center">
+
+          <i class="fa fa-briefcase fa-4x"></i>
+          </div>
+          <div class="row text-center">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5 top-buffer">
+          <div class="row text-center">
+
+          <i class="fa fa-briefcase fa-4x"></i>
+          </div>
+          <div class="row text-center">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+
+</body>
+</HTML>
+
+
+{% endblock %}
